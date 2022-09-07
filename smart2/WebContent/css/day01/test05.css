@@ -1,0 +1,49 @@
+#frm {
+	display: block;
+	margin: 0px auto;
+	width: 50%;
+}
+
+label, input {
+	/* display: block;
+	float: left; */
+	display: inline-block;
+}
+label {
+	width: 30%;
+	text-align: right;
+}
+input {
+	width: 50%;
+	text-align: left;
+	margin-left: 10px;
+}
+
+input[type="text"] {
+	background-color: lightcyan;
+}
+[type="password"] {
+	background-color: oldlace;
+}
+div {
+	margin-bottom: 15px;
+}
+#bfr {
+	/* clear: left; */
+	text-align: center;
+	margin-top: 30px;
+}
+
+button {
+	width: 200px;
+	height: 30px;
+	font-size: 16pt;
+}
+
+button[type="button"] {
+	background-color: green;
+}
+
+button[type="submit"] {
+	background-color: orange;
+}

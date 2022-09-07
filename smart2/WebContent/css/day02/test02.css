@@ -1,0 +1,45 @@
+.content{
+	width: 600px;
+	margin: 0 auto;
+}
+.title{
+	background-color: #e91e63;
+	padding: 12px;
+	color: white;
+	text-align: center;
+}
+.fr{
+	margin-top : 20px;
+}
+label{
+	float: left;
+	width: 150px;
+	text-align: right;
+}
+#gfr{
+	float: left;
+	width: 420px;
+}
+#gfr > div {
+	width: 50%;
+	float: left;
+	text-align: center;
+}
+
+[type="radio"]:checked {
+	width: 20px;
+	heught: 20px;
+}
+.fr12{
+	font-size: 16px;
+}
+.fr14{
+	font-size: 16px;
+}
+
+.fr16{
+	font-size: 16px;
+}
+.bold{
+	font-wrught: bold;
+}
